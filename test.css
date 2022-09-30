@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.nav{
+	background-color: #ceeb12;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	font-style: oblique;
+}
+.navbar{
+	font-size: 4vh;
+	list-style-type: none;
+	display: flex;
+	column-gap: 20px;
+	justify-content: center;
+
+}
+h2{
+	display: inline;
+}
+.content{
+	display: flex;
+	gap: 35px;
+	align-items: center;
+	margin-bottom: 300px;
+}
+.content .photo img{
+	width: 300px;
+	height: 350px;
+	border-radius: 10px;
+}
+.say{
+	margin-right: 150px;
+	font-style: oblique;
+}
+.say h1{
+	font-size: 7vh;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.photo{
+	width: 40%;
+	padding-left: 150px;
+	padding-top: 75px;
+}
+p{
+	font-size: 3.3vh;
+}
+.contact ul li a img{
+	width: 30px;
+
+}
+.contact ul li a{
+	padding: 10px;
+
+}
+#contact{
+	margin: 20px;
+	padding: 15px;
+}
+.contact .link{
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 7px;
+	list-style-type: none;
+}
